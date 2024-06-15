@@ -1,5 +1,19 @@
 {
+    "name": "1/unit_testing",
+    "type": "project",
     "require-dev": {
-        "phpunit/phpunit": "^11.2"
-    }
+        "phpunit/phpunit": "10"
+    },
+    "autoload": {
+        "psr-4": {
+            "1\\UnitTesting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adel",
+            "email": "ahmeddadel9988@gmail.com"
+        }
+    ],
+    "require": {}
 }
